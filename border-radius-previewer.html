@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Border-radius-previewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="border-radius-previewer.css">
+  </head>
+  <body>
+    <div id="viewport">
+
+        <div id="experiment">Experiment Box <br> Change Corner Radius</div>
+    </div>
+    <div id="property">
+        <h5>border-top-left-radius : <p class="tl"></p>px ;</h5>
+        <h5>border-top-right-radius : <p class="tr"></p>px ;</h5>
+        <h5>border-bottom-right-radius : <p class="br"></p>px ;</h5>
+        <h5>border-bottom-left-radius : <p class="bl"></p>px ;</h5>
+        <h5 id="border-radius">border-radius : <p class="tl"></p>px <p class="tr"></p>px <p class="br"></p>px <p class="bl"></p>px ;</h5>
+        
+        <button id="copy" onclick="copyProperties()">Copy Properties</button>
+    </div>
+    <div id="css">
+      <h3 class="css-h3">Write border CSS here</h3>
+      <div id="left-top" class="cone">
+        <label for="top-left">top-left</label>
+        <input type="number" id="top-left" /><label for="top-left"> px</label>
+      </div>
+      <div id="right-top" class="cone">
+        <label for="top-right">top-right :</label>
+        <input type="number" id="top-right"/><label for="top-right"> px</label>
+      </div>
+      <div id="right-bottom" class="cone">
+        <label for="bottom-right">bottom-right : </label>
+        <input type="number" id="bottom-right" /><label for="bottom-right">
+          px</label
+        >
+      </div>
+      <div id="left-bottom" class="cone">
+        <label for="bottom-left">bottom-left : </label>
+        <input type="number" id="bottom-left" /><label for="bottom-left">
+          px</label
+        >
+      </div>
+    </div>
+    <script src="border-radius-previewer.js"></script>
+  </body>
+</html>
