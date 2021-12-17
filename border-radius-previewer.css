@@ -105,14 +105,16 @@
     }
     #css input{
       width: 40%;
-      height: 50%;
+      height: 80%;
       font-weight: normal;
+      font-size: 80%;
+      border: 1px solid black;
     }
     .css-h3{
       margin: -3rem 0px 20px 0px;
     }
     .cone{
-      margin: 0px 0px 0px 0.6rem;
+      margin: 0.2rem 0px 0.2rem 0.6rem;
     }
     #property{
       height:fit-content;
