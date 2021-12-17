@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Readex Pro", sans-serif;
+  }
+  body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+      "viewport viewport property"
+      "viewport viewport property"
+      "viewport viewport property"
+      "viewport viewport css";
+  }
+  #viewport {
+    border: 2px solid black;
+    grid-area: viewport;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #experiment{
+      border: 5px solid black;
+      width: 70%;
+      height: 62%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  #property {
+    border: 2px solid black;
+    grid-area: property;
+  }
+  #css {
+    border: 2px solid black;
+    grid-area: css;
+    font-size: 1.5rem;
+  }
+  input{
+    font-size: 1rem;
+  }
+  .css-h3 {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .cone {
+    margin: 20px 0px 0px 100px;
+  }
+  #left-top{
+    margin-top: 50px;
+  }
+  #property p{
+    display: inline-block;
+  }
+  #property{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  #property h5{
+    margin: 5px 0px 5px 100px;
+  }
+  #copy{
+    padding: 20px;
+    margin: 30px 0px 0px 100px;
+    width: 25%;
+    font-size: 1rem;
+  }
